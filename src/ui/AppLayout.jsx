@@ -4,7 +4,7 @@ import CartOverview from "../features/cart/CartOverview";
 
 function AppLayout() {
   return (
-    <div>
+    <div className="grid h-screen grid-rows-[auto_1fr_auto]">
       <Header />
 
       <div>
